@@ -16,7 +16,7 @@ Open http://127.0.0.1:8000/docs. Accounts: `admin/admin123`, `alice/alicepass` (
 
 > **Keep the bcrypt pin.** `requirements.txt` pins `bcrypt==4.0.1` — newer bcrypt breaks passlib.
 
-## What you edit
+## Accomplished
 - **Part A:** `app/main.py`, only inside the `>>> TASK n ... <<< END TASK n` markers.
 - **Part B:** `tests/test_api.py` and `tests/test_security.py` — replace each `assert False, "TODO..."`.
   (`tests/conftest.py` gives you the `client` fixture and `login` / `auth` helpers — don't edit it.)
